@@ -1,0 +1,22 @@
+import React, { Fragment } from 'react'
+import MetaTags from 'react-meta-tags'
+import Header from '../layouts/Header'
+import Footer from '../layouts/Footer'
+import Content from '../sections/home/Content'
+
+export default () => {
+    return (
+        <Fragment>
+            <MetaTags>
+                <title>Homepage</title>
+                <meta
+                    name="description"
+                    content="#"
+                />
+            </MetaTags>
+            <Header />
+            <Content />
+            <Footer />
+        </Fragment>
+    )
+}
